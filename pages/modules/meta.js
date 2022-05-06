@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 export const config= {
-  unstable_runtimeJS: false
+  unstable_runtimeJS: true
 }
 export default function Meta(props) {
     let _title = ""

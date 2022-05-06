@@ -1,7 +1,7 @@
 import Wrappr from './modules/wrapper'
 
 export const config= {
-  unstable_runtimeJS: false
+  unstable_runtimeJS: true
 }
 export default function Home() {
     function mealCard(menus, src, imgdesc, isexpanded = false) {

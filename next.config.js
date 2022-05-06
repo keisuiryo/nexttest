@@ -15,9 +15,9 @@ module.exports = {
       }
   },
   trailingSlash: true,
-  unstable_runtimeJS: false,
+  unstable_runtimeJS: true,
   config: {
-    unstable_runtimeJS: false
+    unstable_runtimeJS: true
   },
   images: {
     loader: "custom"

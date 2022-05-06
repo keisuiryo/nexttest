@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 
 export const config= {
-  unstable_runtimeJS: false
+  unstable_runtimeJS: true
 }
 export default function Footer(props) {
     return (

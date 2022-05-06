@@ -2,7 +2,7 @@ import Stack from './modules/stack'
 import Wrapper from './modules/wrapper'
 
 export const config= {
-  unstable_runtimeJS: false
+  unstable_runtimeJS: true
 }
 export default function Home() {
     return (

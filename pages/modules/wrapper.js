@@ -5,7 +5,7 @@ import Meta from './meta'
 import Header from './header'
 import Fab from './fab'
 export const config= {
-  unstable_runtimeJS: false
+  unstable_runtimeJS: true
 }
 export default function Wrappr(props) {
     return (

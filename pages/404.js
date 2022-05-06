@@ -2,7 +2,7 @@ import Meta from './modules/meta'
 import SVG from './modules/svg'
 import Link from 'next/link'
 export const config= {
-    unstable_runtimeJS: false
+    unstable_runtimeJS: true
 }
 export default function Custom404() {
     return (<div className='subpage-container'>

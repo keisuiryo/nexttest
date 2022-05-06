@@ -4,7 +4,7 @@ import Link from "next/link"
 title, 
 */
 export const config= {
-  unstable_runtimeJS: false
+  unstable_runtimeJS: true
 }
 export default function Fab(props) {
     let _subtitle="東北大学YMCA"
